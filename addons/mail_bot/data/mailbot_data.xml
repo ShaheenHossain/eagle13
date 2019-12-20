@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eagle>
+    <data>
+        <record id="base.partner_root" model="res.partner">
+            <field name="name">EagleBot</field>
+            <field name="email">eaglebot@example.com</field>
+            <field name="image_1920" type="base64" file="mail/static/src/img/eaglebot.png"/>
+        </record>
+    </data>
+</eagle>

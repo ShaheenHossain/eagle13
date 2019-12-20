@@ -1,0 +1,2 @@
+debian/eagle.conf /etc/eagle
+README.md /usr/share/doc/eagle

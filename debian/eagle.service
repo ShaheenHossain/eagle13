@@ -1,0 +1,14 @@
+[Unit]
+Description=Eagle Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=eagle
+Group=eagle
+ExecStart=/usr/bin/eagle --config /etc/eagle/eagle.conf --logfile /var/log/eagle/eagle-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

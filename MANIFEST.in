@@ -1,0 +1,49 @@
+include requirements.txt
+include LICENSE
+include README.md
+include eagle/addons/mail/static/scripts/eagle-mailgate.py
+recursive-include eagle *.css
+recursive-include eagle *.csv
+recursive-include eagle *.doc
+recursive-include eagle *.docx
+recursive-include eagle *.eml
+recursive-include eagle *.eot
+recursive-include eagle *.gif
+recursive-include eagle *.html
+recursive-include eagle *.ico
+recursive-include eagle *.jpeg
+recursive-include eagle *.jpg
+recursive-include eagle *.js
+recursive-include eagle *.md
+recursive-include eagle *.mp3
+recursive-include eagle *.ogg
+recursive-include eagle *.ods
+recursive-include eagle *.odt
+recursive-include eagle *.otf
+recursive-include eagle *.pdf
+recursive-include eagle *.png
+recursive-include eagle *.po
+recursive-include eagle *.pot
+recursive-include eagle *.rml
+recursive-include eagle *.rng
+recursive-include eagle *.rst
+recursive-include eagle *.scss
+recursive-include eagle *.sql
+recursive-include eagle *.svg
+recursive-include eagle *.template
+recursive-include eagle *.txt
+recursive-include eagle *.ttf
+recursive-include eagle *.woff
+recursive-include eagle *.woff2
+recursive-include eagle *.wsdl
+recursive-include eagle *.xls
+recursive-include eagle *.xsd
+recursive-include eagle *.xsl
+recursive-include eagle *.xlsx
+recursive-include eagle *.xml
+recursive-include eagle *.yml
+recursive-include eagle *.zip
+recursive-include eagle/addons/l10n_mx_edi *.xslt *.key *.cer *.txt
+recursive-include eagle/addons/l10n_mx_reports *.xslt
+recursive-exclude * *.py[co]
+recursive-exclude * *.hg*
